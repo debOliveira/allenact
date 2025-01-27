@@ -1,0 +1,51 @@
+[project]
+name = "allenact"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "debOliveira", email = "deb.oliveira@protonmail.com"},
+]
+dependencies = [
+    "certifi",
+    "chardet",
+    "cloudpickle",
+    "cycler",
+    "decorator",
+    "filelock",
+    "future",
+    "gym",
+    "idna",
+    "imageio",
+    "imageio-ffmpeg",
+    "kiwisolver",
+    "matplotlib",
+    "moviepy",
+    "networkx",
+    "numpy",
+    "opencv-python",
+    "Pillow",
+    "proglog",
+    "protobuf",
+    "pyglet",
+    "pyparsing",
+    "python-dateutil",
+    "requests",
+    "scipy",
+    "setproctitle",
+    "six",
+    "tensorboardX",
+    "tqdm",
+    "urllib3",
+    "attr",
+    "attrs",
+    "wandb",
+    "torch>=2.5.1",
+    "torchvision>=0.20.1",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
