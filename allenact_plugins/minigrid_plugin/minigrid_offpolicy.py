@@ -7,7 +7,7 @@ from typing import Dict, Tuple, Any, cast, List, Union, Optional
 import babyai
 import blosc
 import numpy as np
-import pickle5 as pickle
+import pickle
 import torch
 from gym_minigrid.minigrid import MiniGridEnv
 
